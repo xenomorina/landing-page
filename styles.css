@@ -33,6 +33,27 @@ a {
     font-weight: 700;
 }
 
+a:hover {
+    color: rgba(254, 145, 11, 0.8);
+    cursor: pointer; 
+}
+
+.filled-button {
+    background-color: #FE910B;
+    font-family: "Oxanium", 'Courier New', Courier, monospace;
+    color:#EDEFF0;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 40px;
+}
+
+.filled-button:hover {
+    background-color: rgba(254, 145, 11, 0.8);
+    cursor: pointer;
+}
+
 .top-nav {
     display: flex;
     justify-content: space-between;
@@ -59,6 +80,9 @@ a {
     background-color: #EDEFF0;
     h3 {
         margin-top: 8px;
+    }
+    img {
+        border-radius: 16px;
     }
 }
 
@@ -130,10 +154,14 @@ p.quote {
     background-color: #1A2937;
     display: flex;
     justify-content: space-around;
+    h1, h2 {
+        color: #EDEFF0;
+        margin: 4px 0;
+    }
 }
 
 .footer {
-    background-color: #152029;
+    background-color: #0E151B;
     padding: 24px;
     p {
         color: #EDEFF0;
