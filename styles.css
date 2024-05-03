@@ -8,7 +8,7 @@ html {
 body {
     /* padding: 0px 16%; */
     margin: 0;
-    background-color: #F3F6F6;
+    background-color: #EDEFF0;
 }
 
 div img{
@@ -17,12 +17,19 @@ div img{
 
 h1, h2, h3, h4 {
     font-family: "Oxanium", 'Courier New', Courier, monospace;
-    margin: 10px 0;
-    color: #35524A;
+    margin: 0;
+    color: #0E151B;
 }
 
-p, a {
+p {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: #0E151B;
+}
+
+a {
+    font-family: "Oxanium", 'Courier New', Courier, monospace;
+    color: #FE910B;
+    font-weight: 700;
 }
 
 .top-nav {
@@ -30,7 +37,7 @@ p, a {
     justify-content: space-between;
     align-items: center;
     border: 1px solid red;
-    background-color: #F3F6F6;
+    background-color: #EDEFF0;
     margin-top: 0;
     padding: 16px 15%;
 }
@@ -47,15 +54,15 @@ p, a {
     align-items: center;
     gap: 24px;
     border: 1px solid blue;
-    padding: 40px 15% 60px 15%;
-    background-color: #F3F6F6;
+    padding: 60px 15%;
+    background-color: #EDEFF0;
 }
 
 .services-container {
-    background-color: #A4BAB7;
+    background-color: #B9C3CA;
     text-align: center;
     border: 1px solid yellow;
-    padding: 40px 15% 60px 15%;
+    padding: 60px 15%;
 }
 
 .service-block-group {
@@ -72,4 +79,29 @@ p, a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.quote-container {
+    padding: 60px 15%;
+    border: 1px solid cyan;
+}
+
+.cta-container {
+    padding: 120px 15%;
+    border: 1px solid lawngreen;
+    background-color: #1A2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer {
+    background-color: #152029;
+    padding: 24px;
+    p {
+        color: #EDEFF0;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 12px;
+    }
 }
