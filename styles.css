@@ -47,10 +47,29 @@ p, a {
     align-items: center;
     gap: 24px;
     border: 1px solid blue;
-    padding: 40px 15%;
+    padding: 40px 15% 60px 15%;
     background-color: #F3F6F6;
 }
 
 .services-container {
     background-color: #A4BAB7;
+    text-align: center;
+    border: 1px solid yellow;
+    padding: 40px 15% 60px 15%;
+}
+
+.service-block-group {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.services-block {
+    border: 1px solid pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
