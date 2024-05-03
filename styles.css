@@ -6,8 +6,23 @@ html {
   }
 
 body {
-    padding: 0 20%;
-    background-color: aliceblue;
+    /* padding: 0px 16%; */
+    margin: 0;
+    background-color: #F3F6F6;
+}
+
+div img{
+    display: flex;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Oxanium", 'Courier New', Courier, monospace;
+    margin: 10px 0;
+    color: #35524A;
+}
+
+p, a {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
 }
 
 .top-nav {
@@ -15,10 +30,27 @@ body {
     justify-content: space-between;
     align-items: center;
     border: 1px solid red;
+    background-color: #F3F6F6;
+    margin-top: 0;
+    padding: 16px 15%;
 }
 
 .top-nav-links ul{
     list-style: none;
     display: flex;
     gap: 24px;
+}
+
+.intro-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    border: 1px solid blue;
+    padding: 40px 15%;
+    background-color: #F3F6F6;
+}
+
+.services-container {
+    background-color: #A4BAB7;
 }
