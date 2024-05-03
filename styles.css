@@ -24,6 +24,7 @@ h1, h2, h3, h4 {
 p {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     color: #0E151B;
+    line-height: 1.5;
 }
 
 a {
@@ -56,6 +57,9 @@ a {
     border: 1px solid blue;
     padding: 60px 15%;
     background-color: #EDEFF0;
+    h3 {
+        margin-top: 8px;
+    }
 }
 
 .services-container {
@@ -75,10 +79,31 @@ a {
 
 .services-block {
     border: 1px solid pink;
+    width: 300px;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    h5 {
+        font-family: "Open Sans", Arial, Helvetica, sans-serif;
+        margin: 20px 0 0 0;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    p{
+        margin-top: 8px;
+    }
+}
+
+.icon {
+    background-color: #1A2937;
+    padding: 20px;
+    border-radius: 100%;
+    img {
+        width: 32px;
+        height: auto;
+    }
 }
 
 .quote-container {
