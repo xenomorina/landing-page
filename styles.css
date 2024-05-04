@@ -54,11 +54,27 @@ a:hover {
     cursor: pointer;
 }
 
+.outlined-button {
+    background-color: #1A2937;
+    font-family: "Oxanium", 'Courier New', Courier, monospace;
+    color:#FE910B;
+    font-weight: 700;
+    font-size: 18px;
+    border: 2px solid #FE910B;
+    border-radius: 8px;
+    padding: 16px 40px;
+}
+
+.outlined-button:hover {
+    background-color: #FE910B;
+    color: #1A2937;
+    cursor: pointer;
+}
+
 .top-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     background-color: #EDEFF0;
     margin-top: 0;
     padding: 16px 15%;
@@ -75,7 +91,6 @@ a:hover {
     justify-content: space-between;
     align-items: center;
     gap: 24px;
-    border: 1px solid blue;
     padding: 60px 15%;
     background-color: #EDEFF0;
     h3 {
@@ -89,12 +104,10 @@ a:hover {
 .services-container {
     background-color: #B9C3CA;
     text-align: center;
-    border: 1px solid yellow;
     padding: 60px 15%;
 }
 
 .service-block-group {
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     gap: 40px;
@@ -102,7 +115,6 @@ a:hover {
 }
 
 .services-block {
-    border: 1px solid pink;
     width: 300px;
     height: auto;
     display: flex;
@@ -150,7 +162,6 @@ p.quote {
 
 .cta-container {
     padding: 120px 15%;
-    border: 1px solid lawngreen;
     background-color: #1A2937;
     display: flex;
     justify-content: space-around;
