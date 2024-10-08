@@ -1,5 +1,3 @@
-
-<script type="text/javascript">
 party.resolvableShapes["flower1"] = '<img src="https://karinaroush.com/wp-content/uploads/2024/04/redflowerr.png" style="overflow:clip !important" height="20px"/>';
 party.resolvableShapes["flower2"] = '<img src="https://karinaroush.com/wp-content/uploads/2024/04/pinkflower.png" style="overflow:clip !important" height="20px"/>';
 party.resolvableShapes["sparkle"] = '<img src="https://karinaroush.com/wp-content/uploads/2024/04/pinksparkle.png" style="overflow:clip !important" height="20px"/>';
@@ -12,4 +10,3 @@ document.querySelector(".confettibutton").addEventListener("click", function() {
       size: party.variation.range(0.4, 1),
   });
 })
-</script>
